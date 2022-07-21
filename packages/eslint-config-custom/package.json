@@ -2,14 +2,13 @@
   "name": "@typer/eslint-config-custom",
   "version": "0.0.0",
   "main": "src/index.js",
-  "prettier": "@typer/prettier-config-custom",
   "dependencies": {
     "@typer/prettier-config-custom": "*",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
+    "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-config-prettier": "8.5.0",
     "eslint": "8.20.0"
   }
 }
