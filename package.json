@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
+    "backend",
+    "frontend",
     "packages/*"
   ],
   "scripts": {
@@ -13,8 +14,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
+    "@typer/eslint-config-custom": "*",
+    "@typer/prettier-config-custom": "*",
     "turbo": "latest"
   },
   "engines": {
@@ -22,5 +23,6 @@
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "yarn@1.22.11"
+  "packageManager": "yarn@1.22.11",
+  "prettier": "@typer/prettier-config-custom"
 }

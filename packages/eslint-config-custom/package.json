@@ -1,14 +1,15 @@
 {
-  "name": "eslint-config-custom",
+  "name": "@typer/eslint-config-custom",
   "version": "0.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "src/index.js",
+  "prettier": "@typer/prettier-config-custom",
   "dependencies": {
-    "eslint-config-next": "^12.0.8",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@typer/prettier-config-custom": "*",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.7",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint": "8.20.0"
   }
 }

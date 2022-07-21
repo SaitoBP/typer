@@ -1,0 +1,12 @@
+{
+  "extends": "@typer/typescript-config-custom/src/vite-react.json",
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true
+  },
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts", "dist", ".turbo"]
+}

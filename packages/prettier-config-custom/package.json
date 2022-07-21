@@ -1,0 +1,9 @@
+{
+  "name": "@typer/prettier-config-custom",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/base.json",
+  "dependencies": {
+    "prettier": "2.7.1"
+  }
+}

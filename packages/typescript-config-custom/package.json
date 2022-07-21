@@ -1,0 +1,13 @@
+{
+  "name": "@typer/typescript-config-custom",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "src/base.json",
+    "src/vite-react.json"
+  ],
+  "dependencies": {
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@typer/eslint-config-react",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@typer/eslint-config-custom": "*",
+    "eslint-plugin-jsx-a11y": "6.6.0",
+    "eslint-plugin-react": "7.30.1"
+  }
+}
